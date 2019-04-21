@@ -7,7 +7,7 @@ ET.SubElement(doc, "field1", name="blah").text = "some value1"
 ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
 
 tree = ET.ElementTree(root)
-tree.write("filename.xml")
+tree.write("file_xml.xml")
 
 f = open("file.txt", "r")
 print(f.readline())
